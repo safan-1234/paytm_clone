@@ -1,0 +1,51 @@
+.profile-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .transaction-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f1faff;
+    border: 1px solid #bce0fd;
+    border-radius: 5px;
+  }
+  
+  .transaction-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-section li {
+    margin: 5px 0;
+  }
+  
+  .actions-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .action-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  
