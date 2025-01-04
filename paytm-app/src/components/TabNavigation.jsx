@@ -1,6 +1,6 @@
 import React from "react";
 import "./TabNavigation.css";
-import logo from "../assets/paytm.png"; // Adjust the path if necessary
+import logo from "../assets/paytm.png";
 
 const TabNavigation = () => {
   return (
