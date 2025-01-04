@@ -1,35 +1,35 @@
-/* Main container for tab navigation */
+
 .tab-navigation {
-    display: flex; /* Makes the tabs align in a row */
-    justify-content: space-around; /* Spaces the tabs evenly */
-    align-items: center; /* Centers the content vertically */
-    padding: 5px 0; /* Adds padding to the top and bottom */
-    background-color: #0077ff; /* Sets the background color to blue */
-    color: #fff; /* Default text color is white */
-    border-bottom: 5px solid #005bb5; /* Adds a bottom border for styling */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 5px 0; 
+    background-color: #0077ff; 
+    color: #fff; 
+    border-bottom: 5px solid #005bb5; 
   }
   
-  /* Style for each tab */
+  
   .tab-navigation .tab {
-    font-size: 18px; /* Sets the font size */
-    font-weight: 500; /* Slightly bold text */
-    text-align: center; /* Centers the text */
-    padding: 10px 20px; /* Adds padding inside each tab */
-    cursor: pointer; /* Changes the cursor to a pointer (indicating it's clickable) */
-    color: #fff; /* Text color is white */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+    font-size: 18px; 
+    font-weight: 500; 
+    text-align: center; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    color: #fff; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
   }
   
-  /* Hover effect for tabs */
+  
   .tab-navigation .tab:hover {
-    background-color: #005bb5; /* Darkens the background color */
-    color: #e0e0e0; /* Changes text color to a lighter gray */
+    background-color: #005bb5; 
+    color: #e0e0e0; 
   }
   
-  /* Style for the active tab */
+  
   .tab-navigation .active-tab {
-    background-color: #fff; /* White background for the active tab */
-    color: #0077ff; /* Blue text for the active tab */
-    border-radius: 5px; /* Slightly rounded corners for the active tab */
+    background-color: #fff; 
+    color: #0077ff; 
+    border-radius: 5px; 
   }
   
