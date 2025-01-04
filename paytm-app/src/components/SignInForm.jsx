@@ -9,8 +9,8 @@ const SignInForm = ({ onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform validation/authentication here
-    navigate('/profile'); // Navigate to the Profile Page
+    
+    navigate('/profile'); 
   };
 
   return (
