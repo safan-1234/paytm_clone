@@ -1,10 +1,10 @@
-/* Header Styles */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #f5f5f5; /* Updated as per your request */
+  background-color: #f5f5f5; 
 }
 
 .logo img {
