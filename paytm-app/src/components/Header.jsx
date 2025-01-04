@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { useNavigate } from 'react-router-dom'; 
 import './Header.css';
 import logo from '../assets/logo1.png';
 import SignInForm from './SignInForm';
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const navigate = useNavigate(); // Initialize navigation hook
+  const navigate = useNavigate(); 
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -17,9 +17,9 @@ const Header = () => {
   };
 
   const handleSignIn = () => {
-    // Add your sign-in logic here
-    closeModal(); // Close the modal
-    navigate('/profile'); // Redirect to the profile page
+    
+    closeModal(); 
+    navigate('/profile'); 
   };
 
   return (
